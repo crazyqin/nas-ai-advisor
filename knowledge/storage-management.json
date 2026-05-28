@@ -1,0 +1,7 @@
+{
+  "id": "storage-management",
+  "title": "Storage Management Guide",
+  "content": "## Storage Pool Management\n\n### Creating a Storage Pool\n1. Open Storage Manager from the main menu\n2. Click 'Create' to start the wizard\n3. Select the disks you want to include\n4. Choose your RAID type:\n   - **RAID 0**: Maximum performance, no redundancy\n   - **RAID 1**: Mirror for data protection\n   - **RAID 5**: Balance of performance and protection\n   - **RAID 6**: Double parity for extra protection\n   - **RAID 10**: Mirror + stripe for best performance\n5. Configure volume settings\n6. Review and apply\n\n### Managing Volumes\n- Create shared folders for different purposes\n- Set up quotas to manage disk space\n- Enable data checksumming for integrity\n- Configure snapshots for point-in-time recovery\n\n### Monitoring Storage Health\n- Check disk health regularly\n- Monitor RAID status\n- Set up alerts for disk failures\n- Review storage usage reports",
+  "category": "storage",
+  "tags": ["storage", "raid", "disk", "volume", "pool"]
+}

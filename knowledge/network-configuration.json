@@ -1,0 +1,7 @@
+{
+  "id": "network-configuration",
+  "title": "Network Configuration Guide",
+  "content": "## Network Setup\n\n### Basic Network Configuration\n1. Open Control Panel > Network\n2. Configure network interface:\n   - Set IP address (static or DHCP)\n   - Configure DNS servers\n   - Set default gateway\n\n### Remote Access Setup\n#### DDNS (Dynamic DNS)\n1. Enable DDNS service\n2. Choose a DDNS provider\n3. Configure hostname and credentials\n4. Test connection\n\n#### VPN Setup\n1. Install VPN Server package\n2. Configure VPN protocols:\n   - OpenVPN: Most compatible\n   - PPTP: Easy setup, less secure\n   - L2TP/IPSec: Good balance\n3. Set up user accounts\n4. Configure firewall rules\n\n#### Port Forwarding\n1. Access your router settings\n2. Forward ports to NAS IP:\n   - Port 5000: HTTP\n   - Port 5001: HTTPS\n   - Port 1194: OpenVPN\n3. Test external access\n\n### Firewall Configuration\n- Enable built-in firewall\n- Create rules for specific services\n- Block suspicious IPs\n- Enable auto-block for failed logins",
+  "category": "network",
+  "tags": ["network", "vpn", "ddns", "remote", "firewall"]
+}

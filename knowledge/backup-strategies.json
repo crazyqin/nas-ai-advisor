@@ -1,0 +1,7 @@
+{
+  "id": "backup-strategies",
+  "title": "Backup Strategies Guide",
+  "content": "## Backup Strategies\n\n### 3-2-1 Backup Rule\n- **3** copies of your data\n- **2** different storage media\n- **1** offsite backup\n\n### Local Backup Solutions\n#### Hyper Backup\n1. Install Hyper Backup package\n2. Create backup task:\n   - Select source folders\n   - Choose destination (external drive, another NAS)\n   - Set schedule (daily, weekly)\n   - Configure retention policy\n3. Enable data deduplication\n4. Set up notifications\n\n#### Snapshot Replication\n1. Enable snapshot service\n2. Configure snapshot schedule:\n   - Hourly snapshots for critical data\n   - Daily snapshots for general data\n3. Set retention policy\n4. Test restore process\n\n### Cloud Backup\n#### Supported Cloud Services\n- Amazon S3\n- Google Cloud Storage\n- Microsoft Azure\n- Dropbox\n- Google Drive\n- OneDrive\n\n#### Setup Process\n1. Install Cloud Sync package\n2. Connect to cloud service\n3. Configure sync rules:\n   - One-way sync (backup)\n   - Two-way sync (mirror)\n4. Set bandwidth limits\n5. Enable encryption\n\n### Disaster Recovery\n- Create bootable recovery media\n- Document recovery procedures\n- Test recovery regularly\n- Keep backup logs",
+  "category": "backup",
+  "tags": ["backup", "snapshot", "cloud", "disaster", "recovery"]
+}
